@@ -42,14 +42,14 @@ f.close()
 f = open('valid.txt', 'w')
 for valid_img_path in valid_img_paths:
     f.write('/content/cse6463_22s_120200208/')
-    f.write(train_img_path.replace("\\","/"))
+    f.write(valid_img_path.replace("\\","/"))
     f.write('\n')
 f.close()
 
 f = open('test.txt', 'w')
 for test_img_path in test_img_paths:
     f.write('/content/cse6463_22s_120200208/')
-    f.write(train_img_path.replace("\\","/"))
+    f.write(test_img_path.replace("\\","/"))
     f.write('\n')
 f.close()
 
