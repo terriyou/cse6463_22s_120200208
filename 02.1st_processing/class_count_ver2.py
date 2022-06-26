@@ -33,7 +33,7 @@ for file in file_paths:
     
 f = open('class_cnt_1.txt','w')
 for classes_room_one in classes_room:
-    f.write(classes_room_one)
+    f.write(str(classes_room_one))
     f.write('\n')
 f.close()
     
